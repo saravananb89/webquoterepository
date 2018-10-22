@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <order>
+        <RFQNumber>12343</RFQNumber>
+        <orderNumber>Order #XLD0E8</orderNumber>
+        <OrderDate>20-Mar-2014</OrderDate>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>2</RFQNumber>
+        <orderNumber>Order #VKP0E5</orderNumber>
+        <OrderDate>24-Mar-2014</OrderDate>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>3</RFQNumber>
+        <orderNumber>Order #ZDA0E0</orderNumber>
+        <OrderDate>30-Mar-2014</OrderDate>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>12343</RFQNumber>
+        <orderNumber>Order #ZFP0E8</orderNumber>
+        <OrderDate>20-Mar-2014</OrderDate>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>2</RFQNumber>
+        <orderNumber>Order #TKQ0E8</orderNumber>
+        <OrderDate>24-Mar-2014</OrderDate>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>3</RFQNumber>
+        <orderNumber>Order #SPY0E8</orderNumber>
+        <OrderDate>30-Mar-2014</OrderDate>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>12343</RFQNumber>
+        <orderNumber>Order #XLTZ08</orderNumber>
+        <OrderDate>20-Mar-2014</OrderDate>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>2</RFQNumber>
+        <orderNumber>Order #QLV0E8</orderNumber>
+        <OrderDate>24-Mar-2014</OrderDate>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </order>
+    <order>
+        <RFQNumber>3</RFQNumber>
+        <orderNumber>Order #ASD0E8</orderNumber>
+        <OrderDate>30-Mar-2014</OrderDate>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </order>
+</menu>

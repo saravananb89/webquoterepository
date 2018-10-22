@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <RFQ>
+        <RFQNumber>12343</RFQNumber>
+        <DueDate>RFQ #XLD0E8</DueDate>
+        <SupplierCode>20-Mar-2014</SupplierCode>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>2</RFQNumber>
+        <DueDate>RFQ #VKP0E5</DueDate>
+        <SupplierCode>24-Mar-2014</SupplierCode>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>3</RFQNumber>
+        <DueDate>RFQ #ZDA0E0</DueDate>
+        <SupplierCode>30-Mar-2014</SupplierCode>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>12343</RFQNumber>
+        <DueDate>RFQ #ZFP0E8</DueDate>
+        <SupplierCode>20-Mar-2014</SupplierCode>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>2</RFQNumber>
+        <DueDate>RFQ #TKQ0E8</DueDate>
+        <SupplierCode>24-Mar-2014</SupplierCode>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>3</RFQNumber>
+        <DueDate>RFQ #SPY0E8</DueDate>
+        <SupplierCode>30-Mar-2014</SupplierCode>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>12343</RFQNumber>
+        <DueDate>RFQ #XLTZ08</DueDate>
+        <SupplierCode>20-Mar-2014</SupplierCode>
+        <description>Bulk order for Parts</description>
+        <!--<lineitem>lineitem1</lineitem>-->
+        <!--<testitem>testitem1</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>2</RFQNumber>
+        <DueDate>RFQ #QLV0E8</DueDate>
+        <SupplierCode>24-Mar-2014</SupplierCode>
+        <description>Single order for Parts</description>
+        <!--<lineitem>lineitem2</lineitem>-->
+        <!--<testitem>testitem2</testitem>-->
+    </RFQ>
+    <RFQ>
+        <RFQNumber>3</RFQNumber>
+        <DueDate>RFQ #ASD0E8</DueDate>
+        <SupplierCode>30-Mar-2014</SupplierCode>
+        <description>Double RFQ order for Parts</description>
+        <!--<lineitem>lineitem3</lineitem>-->
+        <!--<testitem>testitem3</testitem>-->
+    </RFQ>
+</menu>

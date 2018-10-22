@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.Ford_iWQ"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="16"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="com.example.IWQHandyApp.MyAction"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.IWQHandyApp.HomeAction"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.LoginAction"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.RFQAction"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.SingleMenuItemActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.AdvanceSearchActionNext"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.AdvanceSearchAction"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.RFQActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.LineItemActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.ClausesActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.DeclineAction"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.rfqAdvanceSearchActionNext"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.AdvanceSearchActionResult"
+                  android:label="@string/app_name"/>
+        <activity android:name="com.example.IWQHandyApp.QuoteAction"
+                  android:label="@string/app_name"/>
+
+    </application>
+</manifest>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@drawable/ic_launcher_backgroundbottom">
+
+    <TableLayout
+    android:shape="ring"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center"
+    android:visibility="visible" android:background="@drawable/my_shape_file"
+    android:id="@+id/tableLayout" android:layout_marginTop="77dp"
+    android:layout_below="@+id/textView3" android:layout_centerHorizontal="true">
+    <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="User ID"
+    android:id="@+id/textView" android:layout_column="0"
+    android:textColor="#000000"
+    />
+
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/userID" android:layout_column="0" android:textColor="#000000"
+    android:inputType="text"
+    android:ellipsize="start"
+    android:hint="User Id"
+    android:layout_span="2"
+    android:singleLine="false"
+    />
+    </TableRow>
+    <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:text="Password"
+    android:id="@+id/textView2"
+    android:textColor="#000000"
+    android:layout_column="0"/>
+
+    <EditText
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/passwordID"
+    android:textColor="#000000"
+    android:ellipsize="start"
+    android:hint="Password"
+    android:layout_column="1"
+    android:singleLine="false"
+    android:inputType="textPassword"/>
+    </TableRow>
+    <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!--<CheckBox-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Remember me"-->
+    <!--android:id="@+id/checkBox"-->
+    <!--android:textColor="#000000"-->
+    <!--android:layout_column="1" android:checked="true"/>-->
+    </TableRow>
+    <TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    </TableRow>
+
+    </TableLayout>
+
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+                   android:id="@+id/loginbtn"
+                android:layout_column="1" android:layout_gravity="center_horizontal|bottom"
+            android:onClick="loginClickBtn"
+            android:background="@drawable/ic_launcher_button_login"
+            android:layout_marginTop="74dp" android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ford Supplier Portal"
+            android:id="@+id/textView3"
+            android:layout_marginTop="74dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textSize="26sp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+            <!--android:text="Ford Supplier Portal"-->
+            <!--android:textColor="#000000"-->
+            <!--android:id="@+id/textView3"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="marquee"-->
+            <!--android:layout_marginTop="51dp"/>-->
+    <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:text="Name"-->
+            <!--android:ems="10"-->
+            <!--android:id="@+id/editText" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="31dp"/>-->
+    <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:ems="10"-->
+            <!--android:id="@+id/editText2" android:layout_above="@+id/loginbtn" android:layout_centerHorizontal="true"/>-->
+
+</RelativeLayout>

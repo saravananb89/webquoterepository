@@ -1,0 +1,48 @@
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@android:id/tabhost"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" android:background="@drawable/ic_launcher_backgroundbottom">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="5dp">
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp" >
+
+
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/gotoQuote"
+
+
+            android:layout_column="1" android:layout_gravity="right|bottom"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:onClick="quotebtnclk" android:background="@drawable/ic_launcher_button_quote"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/declinetobid"
+
+            android:layout_column="1" android:layout_gravity="left|bottom"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:onClick="declinebtnclk" android:background="@drawable/ic_launcher_button_decline"/>
+
+</TabHost>
+

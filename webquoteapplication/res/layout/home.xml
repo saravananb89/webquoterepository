@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/ic_launcher_backgroundbottom">
+    <!--<RelativeLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" android:layout_gravity="center" android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginLeft="384dp" android:layout_alignParentTop="true" android:layout_marginTop="519dp">-->
+
+    <!--</RelativeLayout>-->
+    <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/gridLayout">
+    </GridLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button"
+            android:background="@drawable/ic_launcher_homebutton_5tooltracking"
+            android:layout_below="@+id/openRFQBtn" android:layout_toRightOf="@+id/gridLayout"
+            android:layout_marginLeft="33dp" android:layout_marginTop="63dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/button5"
+            android:onClick="advanceSearchActionBtn"
+            android:background="@drawable/ic_launcher_homebutton_5advsearch"
+            android:layout_alignTop="@+id/button" android:layout_alignParentRight="true"
+            android:layout_marginRight="51dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" android:layout_row="0" android:layout_column="1"
+            android:layout_gravity="right|top"
+            android:background="@drawable/ic_launcher_homebutton_5approvedorders"
+            android:layout_marginTop="74dp"
+            android:onClick="approvedOrdersSearchActionBtn"
+            android:layout_below="@+id/result" android:layout_alignLeft="@+id/button5"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/openRFQBtn" android:layout_row="0" android:layout_column="0"
+            android:layout_gravity="left|top" android:onClick="rfqActionBtn"
+            android:background="@drawable/ic_launcher_homebutton_5openrfq"
+            android:layout_alignTop="@+id/button2" android:layout_alignLeft="@+id/button"/>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="22dp"
+        android:onClick="openLoginPage"
+        android:text="Logout"
+        android:textSize="5pt"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="5pt"  
+        android:typeface="sans"
+        />
+
+    <!-- <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+         android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+</RelativeLayout>

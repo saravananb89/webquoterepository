@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TableLayout
+            android:shape="ring"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center"
+            android:visibility="visible" android:background="@drawable/my_shape_file"
+            android:id="@+id/tableLayout"
+            android:layout_marginBottom="53dp"
+            android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:text=""
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:text="RFQ #QLV0E8"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Status :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Open"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Bid Due Date :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="26-Mar-2014"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="RFQ Currency :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  USD"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Item/Part No :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="FT4V 8N103 AB "
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Buyer :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="John D(GC3D)"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Engg Release :"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="NBOOE12791"
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/rfqIdTabView" android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+        </TableRow>
+        <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="Item/Part No :"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="ST4P-8N900"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="Item/Part Desc :"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="TE-RAD-AIR Z                           "-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="Superseded Part No. :"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="BT4W-9N02"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+        <!--</TableRow>-->
+        <!--<TableRow-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent">-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="Total APW :"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+            <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                    <!--android:text="3000"-->
+                    <!--android:textColor="#000000"-->
+                    <!--android:id="@+id/textView" android:layout_column="1"/>-->
+        <!--</TableRow>-->
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/textView" android:layout_column="1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:id="@+id/textView" android:layout_column="1"/>
+        </TableRow>
+    </TableLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="RFQ OverView"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/textView3"
+            android:layout_marginBottom="79dp"
+            android:layout_above="@+id/tableLayout" android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

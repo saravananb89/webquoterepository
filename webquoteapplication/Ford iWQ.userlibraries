@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="android-support-v4">
+    <archive path="C:/IdeaProjects/Ford iWQ/libs/android-support-v4.jar" />
+  </library>
+  <library name="android-support-v4-f9692629528dee8e6665097f38db3b05">
+    <archive path="C:/IdeaProjects/Ford iWQ/bin/dexedLibs/android-support-v4-f9692629528dee8e6665097f38db3b05.jar" />
+  </library>
+</eclipse-userlibraries>
+

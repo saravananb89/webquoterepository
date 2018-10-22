@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@drawable/ic_launcher_backgroundbottom">
+
+    <TableLayout
+            android:shape="ring"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center"
+            android:visibility="visible" android:background="@drawable/my_shape_file"
+            android:id="@+id/tableLayout" android:layout_marginTop="116dp"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:textColor="#000000"
+                />
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        </TableRow>
+
+    </TableLayout>
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/declinebtn"
+
+            android:layout_column="1" android:layout_gravity="center_horizontal|bottom"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:onClick="postDeclineAction" android:background="@drawable/ic_launcher_button_decline"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter Reason to Decline"
+            android:textColor="#ffffff"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_marginTop="51dp"/>
+
+</RelativeLayout>
